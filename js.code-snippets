@@ -1,0 +1,14 @@
+{
+	"inter": {
+		"scope": "typescriptreact, typescript",
+		"prefix": "inter",
+		"body": ["interface I${TM_FILENAME_BASE} { ", "	${1}", "}"],
+		"description": "create a new interface"
+	},
+	"service": {
+		"scope": "javascript, typescript",
+		"prefix": "service",
+		"body": ["export const ${TM_FILENAME_BASE} = { ", "	${1}", "}"],
+		"description": "create a new service"
+	}
+}
